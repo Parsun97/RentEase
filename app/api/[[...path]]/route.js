@@ -421,7 +421,7 @@ export async function POST(request, { params }) {
         listing_id,
         status: { $in: ['pending', 'confirmed'] },
         $or: [
-          { check_in: { $lte: check_out }, check_out: { $gte: check_in } }
+          { check_in: { $lte: checkOutDate }, check_out: { $gte: checkInDate } }
         ]
       });
       
