@@ -67,6 +67,30 @@ module.exports = {
     				'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
     				border: 'hsl(var(--sidebar-border))',
     				ring: 'hsl(var(--sidebar-ring))'
+    			},
+    			coral: {
+    				50: '#fff1f2',
+    				100: '#ffe4e6',
+    				200: '#fecdd3',
+    				300: '#fda4af',
+    				400: '#fb7185',
+    				500: '#f43f5e',
+    				600: '#e11d48',
+    				700: '#be123c',
+    				800: '#9f1239',
+    				900: '#881337'
+    			},
+    			beige: {
+    				50: '#faf8f5',
+    				100: '#f5f0e8',
+    				200: '#e8ddc8',
+    				300: '#d9c7a5',
+    				400: '#c9af81',
+    				500: '#b8965d',
+    				600: '#9a7c4a',
+    				700: '#7a623b',
+    				800: '#5b482c',
+    				900: '#3c2e1d'
     			}
     		},
     		borderRadius: {
